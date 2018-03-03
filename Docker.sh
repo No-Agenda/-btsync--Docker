@@ -19,9 +19,6 @@ echo "Starting $Path/Start.sh"
   -v $Path/data:/mnt/sync \
   -v $Path/data/.sync:/.sync \
   -v $Path/rssync.conf:/mnt/sync/sync.conf \
-   -v /mnt/bigpart/Media/Podcast/NA_archive:/mnt/NA_archive \
-   -v /mnt/bigpart/Media/Podcast/NNL:/mnt/NNL \
-   -v /mnt/bigpart/Media/Podcast/NNL_archive:/mnt/NNL_archive \
    -v /mnt/bigpart/Media/Podcast/NA:/mnt/NA \
    -v /mnt/bigpart/Media/Podcast/NA_archive:/mnt/NA_archive \
    -v /mnt/bigpart/Media/Podcast/NA_Latest-show:/mnt/NA_Latest-show \
